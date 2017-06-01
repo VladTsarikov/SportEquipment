@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body {
+	background:#EAEAEA;
+	font: 12px Arial, Tahoma, sans-serif;
+}
+a {
+	text-decoration:none;
+}
+.b3radius{
+border-radius: 3px;
+}
+#page_align {
+	width:100%;
+	margin: 0 auto;
+	background: #FFF;
+	box-shadow: 2px 1px 3px #DDDDDD;
+	overflow: hidden;
+}
+#header{
+height: 195px;
+border-bottom:solid 1px #F1F1F1;
+box-shadow: 5px 2px 5px #DDDDDD;
+margin-bottom: 2px;
+background: #FFF;
+}
+#header_nav {
+ background-color: #333;
+height:35px;
+border-bottom:solid 1px #F1F1F1;
+box-shadow: 3px 7px 5px #DDDDDD;
+}
+#header_nav ul {
+list-style: none;
+}
+#header_nav ul li{
+	float: left;
+	
+}
+#header_nav ul li:last-child{
+border-right:none;
+}
+#header_nav ul li a {
+
+	color: #f2f2f2;
+	line-height: 35px;
+	padding:0px 15px;
+	display:block;
+}
+#header_nav ul li a:hover{
+	 background-color: white;
+    color: black;
+}
+#header_nav ul li a:active{
+	 background-color: #98CA60;
+    color: white;
+}
+input[name=topsearch] {
+float:right;	
+margin-right: 6px;
+height: 22px;
+margin-top: 5px;
+border: none;
+box-shadow:inset 0px 1px 3px rgba(0,0,0,.1); 
+background:#F0F0F0;
+padding: 0 5px;
+width: 145px;
+}
+
+#logIN{
+background:#98CA60;
+}
+
+#sidebar{
+	width: 195px;
+	border-right:solid 3px #98CA60;
+	float: left;
+
+}
+#emblem{
+font: 35px 'Trebuchet MS',Arial;
+color:#515151;
+margin-top:40px;
+padding: 10px;	
+}
+.search {
+	position: absolute;
+    left:472px;
+    top: 85px;
+    max-width: 405px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-image: url('searchicon.png');
+    background-color: white;
+     background-position: 10px 10px; 
+    background-repeat: no-repeat
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#content{
+	float: right;
+	width: 800px;
+}
+.clr{
+	clear:both;
+}
+/* The Modal (background) */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 20px;
+    margin: 4px 4px;
+    border: none;
+    cursor: pointer;
+    float:right;
+   
+}
+.submit{
+	background-color: #4CAF50;
+    color: white;
+    padding: 6px 20px;
+    margin: 4px 4px;
+    border: none;
+    cursor: pointer;
+    float:right;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    float:left;
+   
+    padding: 6px 15px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 40px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 8px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+   
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+/*Slideshow*/
+
+.mySlides {
+	display:none
+	width: 100%;
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

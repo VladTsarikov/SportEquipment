@@ -1,0 +1,76 @@
+.wraper{
+	
+	margin: 100px 0;
+
+}
+form{
+	/*background:url("image2.jpg");*/
+	width:350px;
+	background-color:#363636;
+	opacity: 0.7; /* Значение прозрачности */
+    filter: alpha(Opacity=30); /* Прозрачность в IE */
+	margin-left: 100px;
+	padding:20px;
+	box-sizing:border-box;
+	border-radius:2px;
+}
+form p{
+	margin-bottom:5px;
+	font-family: arial,sans-serif;
+	font-size: 12pt;
+	color:#ffffff;
+}
+.id{
+	opacity: 1; /* Значение прозрачности */
+    filter: alpha(Opacity=100); /* Прозрачность в IE */
+	display:block;
+	width:100%;
+	height:30px;
+	border: 1px solid #D9D9D9;
+	border-top-color:#C0C0C0;
+	padding: 0 10px;
+	box-sizing:border-box;
+}
+.date{
+	opacity: 1; /* Значение прозрачности */
+    filter: alpha(Opacity=30); /* Прозрачность в IE */
+	display:block;
+	width:100%;
+	height:30px;
+	border: 1px solid #D9D9D9;
+	border-top-color:#C0C0C0;
+	padding: 0 10px;
+	box-sizing:border-box;
+}
+.submit{
+	background:linear-gradient(to top,#708090, #778899);
+	font-family: arial,sans-serif;
+	font-size: 11pt;
+	color:#FFFAFA;
+	border:1px solid #778899;
+	padding: 5px;
+	border-radius:2px;
+	
+}
+label{
+	display:block;
+	margin-bottom:15px;
+}
+.quotes{
+	color: #FFFFFF;
+	font-family:  Georgia,sans-serif;
+	font-size: 50pt;
+	line-height:1.7;
+	position: absolute;
+    right:20px;
+    top:90px;
+}
+.author{
+	color: #FFFFFF;
+	font-family: Palatino,sans-serif;
+	font-size: 20pt;
+	line-height:0.1;
+	position: absolute;
+    right:48px;
+    
+}

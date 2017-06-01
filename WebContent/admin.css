@@ -1,0 +1,36 @@
+*{
+padding:o;
+margin:0;
+}
+.wraper{
+	margin: 100px 0;
+	
+	
+}
+p{
+	text-align:center;
+	font: 700 12px, Arial,sans-serif;
+	color:#DCDCDC;
+	margin: 0 auto;
+	padding:25px;
+}
+.table{
+	width:300px;
+	margin: 0 auto;
+	box-sizing:border-box;
+	font: 700 12px, Arial,sans-serif;
+	color:#696969;
+	border: 3px 0 #2F4F4F;
+	 border-spacing: 4px;
+}
+th{
+	background:linear-gradient(to top,#808080, #696969);
+	color:#F0FFFF;
+	
+}
+tr{
+
+	background:linear-gradient(to top,#808080, #696969);
+	color:#F0FFFF;
+	
+}
